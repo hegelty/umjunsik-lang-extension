@@ -1,0 +1,28 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "엄랭",
+	"scopeName": "source.umm",
+	"fileTypes": ["umm"],
+	"patterns": [
+		{
+			"match": "어떻게|이 사람이름이냐ㅋㅋ",
+			"name": "keyword.other.umm"
+		},
+		{
+			"match": "동탄|(?<=[어.,])[?]|화이팅!|준(?=[어.,])",
+			"name": "keyword.control.umm"
+		},
+		{
+			"match": "식(?=[어.,])|식[?]|(?<=[어.,])[ㅋ!]",
+			"name": "entity.name.function.io.umm"
+		},
+		{
+			"match": "[.,]",
+			"name": "keyword.operator.arithmetic.umm"
+		},
+		{
+			"match": "[어엄]",
+			"name": "variable.umm"
+		}
+	]
+}

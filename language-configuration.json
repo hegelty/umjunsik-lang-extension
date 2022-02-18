@@ -1,0 +1,7 @@
+{
+    // symbols that are auto closed when typing
+    "autoClosingPairs": [
+        ["어떻게", "이 사람이름이냐ㅋㅋ"],
+        ["동탄", "?"]
+    ]
+}

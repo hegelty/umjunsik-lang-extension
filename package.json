@@ -1,0 +1,49 @@
+{
+    "name": "umjunsik-lang",
+    "displayName": "엄랭 Syntax Highlighter",
+    "description": "엄랭 문법 강조 확장 프로그램",
+    "version": "0.0.1",
+    "publisher": "hegelty",
+    "license": "MIT License",
+    "icon": "images/icon.png",
+    "author": {
+        "name": "hegelty",
+        "url": "www.github.com/hegelty"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hegelty/umjunsik-lang-extension"
+    },
+    "bugs": {
+        "url": "https://github.com/hegelty/umjunsik-lang-extension/issues"
+    },
+    "readme": "README.md",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords": [
+        "umm",
+        "umjunsik",
+        "엄준식",
+        "엄랭",
+        "language",
+        "highlight",
+        "syntax"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "umjunsik-lang",
+            "aliases": ["엄랭", "umjunsik-lang"],
+            "extensions": [".umm"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "umjunsik-lang",
+            "scopeName": "source.umm",
+            "path": "./syntaxes/umjunsik-lang.tmLanguage.json"
+        }]
+    }
+}
