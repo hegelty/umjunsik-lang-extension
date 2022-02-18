@@ -2,7 +2,7 @@
     "name": "umjunsik-lang",
     "displayName": "엄랭 Syntax Highlighter",
     "description": "엄랭 문법 강조 확장 프로그램",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "hegelty",
     "license": "MIT License",
     "icon": "images/icon.png",
